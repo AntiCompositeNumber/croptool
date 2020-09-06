@@ -15,6 +15,7 @@ class ImageEditor
         '.gif' => 'image/gif',
         '.djvu' => 'image/vnd.djvu',
         '.pdf' => 'application/pdf',
+        '.svg' => 'image/svg+xml',
     ];
 
     public function mimeFromPath($path)
